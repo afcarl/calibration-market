@@ -1,0 +1,32 @@
+{
+  "name": "calibration-market",
+  "version": "1.0.0",
+  "description": "A web app version of CFAR's calibration markets game.",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js; nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aslanides/calibration-market.git"
+  },
+  "keywords": [
+    "calibration",
+    "market",
+    "game"
+  ],
+  "author": "John Aslanides",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/aslanides/calibration-market/issues"
+  },
+  "homepage": "https://github.com/aslanides/calibration-market#readme",
+  "dependencies": {
+    "express": "^4.15.0",
+    "mongoose": "^4.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
